@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  width: 100%;
+  background-color: #729382;
+  
+}
+ul{
+  list-style-type: none;
+  text-align: center;
+}
+
+li{
+  display: inline;
+  text-align: center;
+  margin: 0 10px 0 0;
+}
+li a{
+  padding: 2px 7px 2px 7px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 1.5em;
+  
+}
+
+.aboutMeContent {
+  margin: 0px;
+  width: 70%;
+  background-color: #fff;
+  padding: 20px;
+  height: 500px;
+  
+}
+
+.projectContent{
+    margin: 0px;
+    width: 100%;
+    background-color: #DDE3DF;
+
+}
+
+.interestsContent{
+  margin: 0px;
+  width: 100%;
+  background-color:  #fff;
+}
+
+.aboutMeImage{
+  border: 1px solid black;
+  width: 400px;
+  height: 400px;
+  border-radius: 330px;
+  background-image: url("../img/foto_perfil.png");
+  background-size: 100% 100%;
+  float: left;
+  margin-left: 100px;
+}
+
+.aboutMeText{
+
+float: left;
+width: 400px;
+height: 400px;
+margin-left: 100px;
+text-align: center;
+padding-top: 40px;
+
+}
+
+.aboutMeText h2{
+  color: #729382;
+  font-size: 2em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.aboutMeText h1{
+  color: black;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.aboutMeText p{
+  color: black;
+  font-size: 1em;
+  font-weight: 600;
+
+}
+.projectContent{
+  padding: 30px 0px;
+  height: 900px;
+  
+}
+.projectTitle{
+  border: 1px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 330px;
+  background-color: white;
+ margin: 4px auto;
+ text-align: center;
+ 
+}
+.projectTitle h1{
+  color: black;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 50px;
+
+}
+.projectArtists img{
+  border: 2px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+  
+
+}
+.projectArtists{
+  
+  margin:  20px auto;
+  height: 550px;
+  width: 85%;
+}
+.projectArtistsDiv{
+  
+  float: left;
+  margin: 10px 25px;
+  width: 28%;
+  text-align: center;
+}
+.interestsContent{
+  height: 350px;
+  
+}
+.interestsTitle{
+  border: 1px solid black;
+  width: 210px;
+  height: 210px;
+  border-radius: 200px;
+  background-color: #729382;
+ margin: 20px auto;
+ text-align: center;
+ 
+}
+.interestsTitle h1{
+  color: white;
+  font-size: 2.5em;
+  font-weight: 600;
+  margin: 45px;
+
+}
+
+.interestsContent ul{
+  color: black;
+  font-size: 2.5em;
+  font-weight: 600; 
+
+}
+
+#form {
+  background-color: #DDE3DF;
+  margin:  20px auto;
+  height: 350px;
+  text-align: center;
+}
+
+.formTitle{
+  border: 1px solid black;
+  width: 150px;
+  height: 150px;
+  border-radius:150px;
+  background-color: white;
+ margin: 2px auto;
+ text-align: center;
+ 
+}
+.formTitle h1{
+  color: black;
+  font-size: 1.5em;
+  font-weight: 600;
+  margin: 20px;
+
+}

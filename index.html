@@ -4,13 +4,13 @@
       <title>Perfil de Miguel Sánchez</title>
       <meta charset="utf-8">
       <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-      <link rel="stylesheet" href="styles/....">
+      <link rel="stylesheet" type="text/css" href="css/main.css">
   </head>
   <body>
     <header>
       <nav>
-        <button>Home</button>
         <ul>
+          <li><a href="#">Home</a></li>
           <li><a href="#aboutMe">Sobre mi</a></li>
           <li><a href="#project">Proyecto</a></li>
           <li><a href="#interests">Intereses</a></li>
@@ -18,53 +18,64 @@
       </nav>
     </header>
     <main>
-      <section id="aboutMe">
-        <div>
-          <h1>Sobre mi</h1>
-          <img src="img/foto_perfil.png">
-          <p>Me llamo Miguel Sánchez, actualmente vivo en Sabadell y soy informatico de sistemas. He decidido dar un cambio a nivel
-            profesional y en este momento estoy estudiando en el BootCamp de WebDeb de IronHack.
-          </p>
-        </div>
+      <section id="aboutMe" >
+        <div class="aboutMeContent">
+          <div class="aboutMeImage">
+          </div>
+          <div class="aboutMeText">
+            <h2>Bienvenido!</h2>
+            <h1>Soy Miguel Sánchez</h1>
+            <h2>Alumno Full Stack WebDev</h2>
+            <p>Actualmente soy informatico de sistemas, he decidido dar un cambio a nivel
+              profesional y en este momento estoy estudiando en el BootCamp de WebDev de IronHack. GO!GO!GO!!!
+            </p>
+          </div>
+        </div>  
+        
       </section>
       <section id="project">
-          <div>
-            <h1>Mis artistas musicales favoritos</h1>
-            <div>
-              <h2>Muse</h2>
-              <img src="img/muse.jpg">
-              <p>
-                Muse es una banda británica de rock alternativo formada en 1994 en Inglaterra. 
-                Desde su formación en la década de los 90, sus integrantes son: Matt Bellamy
-                 (compositor, voz, guitarra, teclados); Dominic Howard (batería, percusión); 
-                 y Christopher Wolstenholme (bajo eléctrico, teclados, coros).
-              </p>
+          <div class="projectContent">
+            <div class="projectTitle">
+              <h1>Mis artistas <br>musicales favoritos</h1>
             </div>
-            <div>
-              <h2>Izal</h2>
-              <img src="img/izal.jpg">
-              <p>IZAL es un grupo de música indie pop/rock originario de Madrid en 2010, 
-                  formado por Mikel Izal (vocalista y compositor), encabezando una formación que completan 
-                  Alejandro Jordá (batería), Emanuel Pérez “Gato” (bajo), Alberto Pérez (guitarras), Iván Mella (teclados).
+            <div class="projectArtists">
+              <div class="projectArtistsDiv">
+                <h2>Muse</h2>
+                <img src="img/muse.jpg">
+                <p>
+                  Muse es una banda británica de rock alternativo formada en 1994 en Inglaterra. 
+                  Desde su formación en la década de los 90, sus integrantes son: Matt Bellamy
+                  (compositor, voz, guitarra, teclados); Dominic Howard (batería, percusión); 
+                  y Christopher Wolstenholme (bajo eléctrico, teclados, coros).
                 </p>
-            </div>
-            <div>
-              <h2>Vetusta Morla</h2>
-              <img src="img/vetusta_morla.jpg">
-              
-              <p>Vetusta Morla es una banda española de indie rock originaria de Tres Cantos, 
-                  Madrid, que canta en español. Tras nueve años de andadura musical, en febrero de 2008 
-                  publicaron su primer largo, Un día en el mundo. Tres años más tarde, en 2011, publicaron su 
-                  segundo álbum, Mapas.1​ El 8 de abril de 2014, tras varios años de gira por España y otros países, 
-                  publican su tercer álbum, La deriva. En 2017 publican su cuarto álbum Mismo sitio, distinto lugar. 
-                  La banda debe su nombre al personaje la Vetusta Morla de La historia interminable, la tortuga anciana 
-                  gigante ("vetusta" en castellano es sinónimo de vieja).</p>
+              </div>
+              <div class="projectArtistsDiv">
+                <h2>Izal</h2>
+                <img src="img/izal.jpg">
+                <p>IZAL es un grupo de música indie pop/rock originario de Madrid en 2010, 
+                    formado por Mikel Izal (vocalista y compositor), encabezando una formación que completan 
+                    Alejandro Jordá (batería), Emanuel Pérez “Gato” (bajo), Alberto Pérez (guitarras), Iván Mella (teclados).
+                  </p>
+              </div>
+              <div class="projectArtistsDiv">
+                <h2>Vetusta Morla</h2>
+                <img src="img/vetusta_morla.jpg">
+                
+                <p>Vetusta Morla es una banda española de indie rock originaria de Tres Cantos, 
+                    Madrid, que canta en español. Tras nueve años de andadura musical, en febrero de 2008 
+                    publicaron su primer largo, Un día en el mundo. Tres años más tarde, en 2011, publicaron su 
+                    segundo álbum, Mapas.1​ El 8 de abril de 2014, tras varios años de gira por España y otros países, 
+                    publican su tercer álbum, La deriva. En 2017 publican su cuarto álbum Mismo sitio, distinto lugar..</p>
+              </div>
             </div>
           </div>
       </section>
       <section id="interests">
-          <div>
-            <h1>Mis intereses</h1>
+          <div class="interestsContent">
+            <div class="interestsTitle">
+              <h1>Mis intereses</h1>
+            </div>
+            
             <ul>
               <li>Esquiar</li>
               <li>Teatro</li>
@@ -75,7 +86,9 @@
       </section>
       <section id="form">
           <div>
-            <h1>Contactame</h1>
+            <div class="formTitle">
+              <h1>Para Contactar Conmigo</h1>
+            </div>
             <form action="" method="POST">
               <div>
                 <label for="name">Nombre:</label><br>
